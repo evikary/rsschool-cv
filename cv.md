@@ -19,9 +19,10 @@ _I am a beginner frontend developer. I've been studying frontend for 6 months. I
 - PUG, SCSS
 - JavaScript
 - React
-  <br/>
 
-#### Code Example
+---
+
+###### Code Example
 
 ```js
 const arr = ['5', '0', 9, 3, 2, 1, '9', 6, 7];
@@ -36,3 +37,19 @@ function sumMix(x) {
 
 console.log(sumMix(arr));
 ```
+
+## Education
+
+#### **Courses**:
+
+- **Basics of programming**
+- **Basics HTML and CSS**
+- **JavaScript** I
+- **JavaScript** II
+- **JavaScript** web-page management
+- **«React-developer** (in progress...)
+- **RS Schools «JavaScript/Front-end. Stage 0»** (in progress...)
+
+## Languages
+
+**English** A2 (in progress...)
