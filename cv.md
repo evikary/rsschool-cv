@@ -17,6 +17,7 @@ _I am a beginner frontend developer. I've been studying frontend for 6 months. I
 
 - HTML5, CSS3
 - PUG, SCSS
+- Git
 - JavaScript
 - React
 
@@ -47,7 +48,7 @@ console.log(sumMix(arr));
 - **JavaScript** I
 - **JavaScript** II
 - **JavaScript** web-page management
-- **«React-developer** (in progress...)
+- **React-developer** (in progress...)
 - **RS Schools «JavaScript/Front-end. Stage 0»** (in progress...)
 
 ## Languages
