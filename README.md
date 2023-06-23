@@ -1,1 +1,1 @@
-https://evikary.github.io/rsschool-cv/
+https://evikary.github.io/rsschool-cv/cv
