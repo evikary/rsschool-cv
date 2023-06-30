@@ -9,11 +9,16 @@ body {
 
 .wrapper {
   display: flex;
+  flex-direction: column;
   margin: 0 auto;
-  padding: 10px 20px;
+  padding: 10px 20px 0 20px;
   max-width: 900px;
   height: auto;
-  background: #fff9f0;
+  background: #fcfdff;
+}
+
+.container {
+  display: flex;
 }
 
 .col1 {
@@ -166,4 +171,21 @@ body {
 
 .courses.mt {
   margin: 20px 0;
+}
+
+.blackFooter {
+  display: flex;
+  margin-top: 15px;
+  padding: 20px 40px;
+  width: 100%;
+  background-color: #211d25;
+}
+
+.icon2 {
+  margin-right: 16px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 24px;
+  background-color: #ffffff;
 }
