@@ -145,9 +145,24 @@ body {
   opacity: 0.8;
 }
 
-.list {
+ul {
+  list-style-type: none;
+}
+
+li {
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
+}
+
+li::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  margin-right: 5px;
+  display: inline-block;
+  background: #211d25;
+  opacity: 0.5;
+  border-radius: 50%;
 }
 
 .borderCode {
