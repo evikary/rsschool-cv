@@ -181,6 +181,8 @@ li::before {
 
 .blackFooter {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 20px 40px;
   width: 100%;
   background-color: #211d25;
@@ -188,9 +190,16 @@ li::before {
 
 .icon2 {
   margin-right: 16px;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   font-size: 24px;
   background-color: #ffffff;
+}
+
+.age {
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #ffffff;
 }
