@@ -11,7 +11,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  padding: 10px 20px 0 20px;
   max-width: 900px;
   height: auto;
   background: #fcfdff;
@@ -22,7 +21,8 @@ body {
 }
 
 .col1 {
-  margin-bottom: 40px;
+  width: 360px;
+  background: #211d25;
 }
 
 .header {
@@ -53,18 +53,6 @@ body {
   z-index: 5;
 }
 
-.sidebar {
-  width: 360px;
-}
-
-.widget {
-  position: absolute;
-  top: 0;
-  left: 465px;
-  min-height: 900px;
-  background: #211d25;
-}
-
 .infoMe {
   display: flex;
   margin-top: 220px;
@@ -76,7 +64,6 @@ body {
 .avatar {
   width: 300px;
   height: auto;
-  /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7); */
 }
 
 .aboutMe {
@@ -127,9 +114,12 @@ body {
   text-decoration: none;
 }
 
+.col2 {
+  width: 540px;
+}
+
 .blackLine {
   margin-top: 200px;
-  width: 520px;
   border-top: 3px solid #211d25;
   border-radius: 2px;
 }
@@ -147,6 +137,7 @@ body {
 
 ul {
   list-style-type: none;
+  padding: 6px 0 0 12px;
 }
 
 li {
@@ -184,13 +175,12 @@ li::before {
   opacity: 0.7;
 }
 
-.courses.mt {
-  margin: 20px 0;
+.footer {
+  margin-top: 20px;
 }
 
 .blackFooter {
   display: flex;
-  margin-top: 15px;
   padding: 20px 40px;
   width: 100%;
   background-color: #211d25;
