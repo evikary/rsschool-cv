@@ -183,7 +183,7 @@ li::before {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 15px 40px;
   width: 100%;
   background-color: #211d25;
 }
