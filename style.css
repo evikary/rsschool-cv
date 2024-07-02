@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Ysabeau SC', sans-serif;
+  font-family: "Ysabeau SC", sans-serif;
 }
 
 .wrapper {
@@ -22,7 +22,11 @@ body {
 
 .col1 {
   width: 360px;
-  background: #211d25;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
 }
 
 .header {
@@ -142,7 +146,7 @@ body {
 }
 
 .item::before {
-  content: '';
+  content: "";
   width: 8px;
   height: 8px;
   margin-right: 5px;
@@ -171,8 +175,49 @@ body {
   opacity: 0.7;
 }
 
+.projects {
+  margin-top: 20px;
+  border-radius: 12px;
+  padding: 12px;
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
+}
+
+.projects-title {
+  color: #ffffff;
+}
+
+.projects-list {
+  display: flex;
+}
+
+.projects-item {
+  font-size: 16px;
+  font-weight: 400;
+  flex-grow: 1;
+}
+
+.projects-item::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  margin-right: 5px;
+  display: inline-block;
+  background: #ffffff;
+  opacity: 0.5;
+  border-radius: 50%;
+}
+
 .footer {
   margin-top: 20px;
+}
+
+.linkProject {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .blackFooter {
@@ -181,7 +226,7 @@ body {
   justify-content: space-between;
   padding: 15px 40px;
   width: 100%;
-  background-color: #211d25;
+  background: linear-gradient(to right, #434343 0%, black 100%);
 }
 
 .linkFooter {
