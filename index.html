@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="./images/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@100;400;600&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@100;400;600&display=swap"
+      rel="stylesheet"
+    />
     <title>CV</title>
   </head>
+
   <body>
     <div class="wrapper">
       <div class="container">
@@ -24,29 +27,48 @@
               <img class="avatar" alt="avatar" src="./images/avatar.jpeg" />
               <h2 class="aboutMe">About me</h2>
               <p class="text">
-                I am a beginner frontend developer. I've been studying frontend for 6 months. <br />
-                I really like my job. She inspires me to study every day... <br />
+                I am an aspiring frontend developer. I have been studying
+                frontend for 1 year and 3 months. <br />
+                I really like my job. She inspires me to study every day...
+                <br />
                 I dream of becoming a good developer
               </p>
               <div class="line"></div>
             </section>
             <nav class="navBar">
-              <div class="box">
-                <img class="icon" alt="email" src="./images/email.png" />
-                <a class="link" target="_blank" href="dariamore1019@gmail.com">dariamore1019@gmail.com</a>
-              </div>
-              <div class="box">
-                <img class="icon" alt="tel" src="./images/tel.png" />
-                <a class="link" target="_blank" href="tel:+79699696669">+7 969 969 66 69</a>
-              </div>
-              <div class="box">
-                <img class="icon" alt="wk" src="./images/wk.png" />
-                <a class="link" target="_blank" href="https://m.vk.com/y">@daria_krepchuk</a>
-              </div>
-              <div class="box">
-                <img class="icon" alt="telegram" src="./images/telegram.png" />
-                <a class="link" target="_blank" href="@daria_more999">@daria_more999</a>
-              </div>
+              <ul class="contactList">
+                <li class="box">
+                  <img class="icon" alt="email" src="./images/email.png" />
+                  <a
+                    class="link"
+                    target="_blank"
+                    href="mailto:daria_more10@mail.ru"
+                    >daria_more10@mail.ru</a
+                  >
+                </li>
+                <li class="box">
+                  <img class="icon" alt="tel" src="./images/tel.png" />
+                  <a class="link" target="_blank" href="tel:+79699696669"
+                    >+7&nbsp;969&nbsp;969&nbsp;66&nbsp;69</a
+                  >
+                </li>
+                <li class="box">
+                  <img class="icon" alt="wk" src="./images/wk.png" />
+                  <a class="link" target="_blank" href="https://m.vk.com/y"
+                    >@daria_krepchuk</a
+                  >
+                </li>
+                <li class="box">
+                  <img
+                    class="icon"
+                    alt="telegram"
+                    src="./images/telegram.png"
+                  />
+                  <a class="link" target="_blank" href="https://t.me/"
+                    >@daria_more</a
+                  >
+                </li>
+              </ul>
             </nav>
           </aside>
         </div>
@@ -55,11 +77,15 @@
           <section class="content">
             <h2 class="caption">My skills</h2>
             <ul class="list">
-              <li>HTML5, CSS3</li>
-              <li>PUG, SCSS</li>
-              <li>Git</li>
-              <li>JavaScript</li>
-              <li>React</li>
+              <li class="item">HTML5, CSS3</li>
+              <li class="item">PUG, SCSS</li>
+              <li class="item">Git</li>
+              <li class="item">Figma, Pixso</li>
+              <li class="item">JavaScript</li>
+              <li class="item">TypeScript</li>
+              <li class="item">React</li>
+              <li class="item">Redux, Redux Toolkit, RTK Query</li>
+              <li class="item">React Router</li>
             </ul>
           </section>
           <section class="content">
@@ -84,13 +110,16 @@ console.log(sumMix(arr));</pre
             <h2 class="caption">Education</h2>
             <p class="courses">Courses:</p>
             <ul class="list">
-              <li>Basics of programming</li>
-              <li>Basics HTML and CSS</li>
-              <li>JavaScript I</li>
-              <li>JavaScript II</li>
-              <li>JavaScript web-page management</li>
-              <li>React-developer <em>(in progress...)</em></li>
-              <li>RS Schools «JavaScript/Front-end. Stage 0» <em>(in progress...)</em></li>
+              <li class="item">Basics of programming</li>
+              <li class="item">Basics HTML and CSS</li>
+              <li class="item">JavaScript I</li>
+              <li class="item">JavaScript II</li>
+              <li class="item">JavaScript web-page management</li>
+              <li class="item">Yandex Practicum «React-developer»</li>
+              <li class="item">
+                RS Schools «JavaScript/Front-end. Stage 0»
+                <em>(in progress...)</em>
+              </li>
             </ul>
           </section>
           <section class="content">
@@ -99,13 +128,64 @@ console.log(sumMix(arr));</pre
           </section>
         </main>
       </div>
+      <article>
+        <section class="projects">
+          <h2 class="projects-title">My projects</h2>
+          <ul class="list projects-list">
+            <li class="projects-item">
+              <a
+                class="linkProject"
+                target="_blank"
+                href="https://luminous-dango-f0885d.netlify.app/"
+                >Dog-Food</a
+              >
+            </li>
+            <li class="projects-item">
+              <a
+                class="linkProject"
+                target="_blank"
+                href="https://65e4cbe1a44d6dc578845370--taupe-mermaid-e0d4f2.netlify.app/"
+                >Stellar Burgers</a
+              >
+            </li>
+            <li class="item projects-item">
+              <a
+                class="linkProject"
+                target="_blank"
+                href="https://evikary.github.io/hangman/hangman/"
+                >Hangman</a
+              >
+            </li>
+            <li class="item projects-item">
+              <a
+                class="linkProject"
+                target="_blank"
+                href="https://evikary.github.io/nonograms/nonograms/"
+                >Nonograms</a
+              >
+            </li>
+            <li class="item projects-item">
+              <a
+                class="linkProject"
+                target="_blank"
+                href="https://evikary.github.io/coffee-house/coffee-house/"
+                >Coffee-House</a
+              >
+            </li>
+          </ul>
+        </section>
+      </article>
       <footer class="footer">
         <div class="blackFooter">
-          <a target="_blank" href="https://github.com/evikary/">
+          <a
+            class="linkFooter"
+            target="_blank"
+            href="https://github.com/evikary/"
+          >
             <img class="icon2" alt="gitHub" src="./images/gitHub.png" />
           </a>
-          <span class="age">2023</span>
-          <a target="_blank" href="https://rs.school/js/">
+          <span class="age">2023-2024</span>
+          <a class="linkFooter" target="_blank" href="https://rs.school/js/">
             <img class="icon2" alt="rs_school" src="./images/rs.svg" />
           </a>
         </div>
